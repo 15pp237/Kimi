@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>占いだよ</title>
+    <title>占い</title>
 </head>
 <body>
     <input id="omikuji_btn" type="button" value="おみくじを引く">
@@ -10,12 +10,12 @@
         document.getElementById("omikuji_btn").onclick = function(){
             var rnd = Math.floor(Math.random()*6);
             var omikuji;
-            if (rnd === 0) omikuji = "最高の一日だなぁ"
-            if (rnd === 1) omikuji = "にゃうにゃうな1日だにゃ"
-            if (rnd === 2) omikuji = "絶好調かなんかですか〜？"
-            if (rnd === 3) omikuji = "素敵な思い出によって携帯が宝物に！"
-            if (rnd === 4) omikuji = "普通の日だよん"
-            if (rnd === 5) omikuji = "おバカ注意報発令中！！"
+            if (rnd === 0) omikuji = "great"
+            if (rnd === 1) omikuji = "good"
+            if (rnd === 2) omikuji = "so good"
+            if (rnd === 3) omikuji = "nomal"
+            if (rnd === 4) omikuji = "bad"
+            if (rnd === 5) omikuji = "hell"
             alert(omikuji);
         }
     </script>
